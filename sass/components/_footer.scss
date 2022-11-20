@@ -1,0 +1,122 @@
+.logo-studio-white {
+  color: var(--main-white-color-h);
+}
+
+footer {
+  background-color: var(--nav-backgroud-main);
+}
+
+.logo-studio-white {
+  color: var(--main-white-color-h);
+}
+
+.lower-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-height: 252px;
+}
+
+.address-down {
+  margin-top: 20px;
+}
+.logo-down-web {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.join-us-main {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.joinus-middle {
+  margin-left: 79px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+
+.joinus-list {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.lower-icon-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--main-white-color-h);
+}
+
+.second-part {
+  color: var(--main-white-color-h);
+}
+
+.lower-list-itemss {
+  margin-bottom: 9px;
+}
+
+.subscription-main {
+  margin-left: 93px;
+}
+
+.second-part {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--main-white-color-h);
+}
+
+.email-button-part {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mail-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 20px;
+  background-color: transparent;
+  transition: background-color, border-color, box-shadow;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
+  color: var(--portfolio-bottons-color);
+  outline: none;
+}
+
+.mail-input:hover,
+.mail-input:focus {
+  border-color: var(--web-hover-button-up-down);
+  outline: none;
+}
+
+.submit-btn {
+  display: flex;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background: var(--web-hover-button-up-down);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  align-items: center;
+  padding: 10px 28px;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn:active {
+  background-color: var(--header-button-active);
+}

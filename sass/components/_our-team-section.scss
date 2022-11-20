@@ -1,0 +1,76 @@
+.section-team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: var(--portfolio-bottons-color);
+}
+
+.team-header-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--nav-studio-portfolio-contact);
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-max {
+  max-width: 1600px;
+}
+.team-participants {
+  display: flex;
+  gap: 30px;
+}
+
+.team-item {
+  background-color: var(--main-white-color-h);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--nav-studio-portfolio-contact);
+  margin-bottom: 10px;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--nav-address-email-phone-p-);
+}
+
+.role-info {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.icon-ellipse {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  transition: background-color, fill;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
+}
+
+.icon-ellipse:hover,
+.icon-ellipse:focus {
+  background-color: var(--web-hover-button-up-down);
+  fill: var(--main-white-color-h);
+}
+
+.icons-team-propertys {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}

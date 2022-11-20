@@ -1,0 +1,46 @@
+.header-pictures {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.whatwedo-list {
+  display: flex;
+  gap: 30px;
+}
+
+.what-items {
+  gap: 30px;
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.whatwedo-desc {
+  position: relative;
+  display: flex;
+}
+
+.whatwedo-desc-text {
+  display: flex;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  color: var(--stroke);
+  justify-content: center;
+  align-items: center;
+  top: 224px;
+  background-color: var(--what-we-do-descrption-bg);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+
+.header-pictures-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--nav-studio-portfolio-contact);
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}

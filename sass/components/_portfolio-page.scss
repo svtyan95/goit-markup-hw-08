@@ -1,0 +1,69 @@
+.gallery-link {
+  text-decoration: none;
+  display: block;
+  transition: box-shadow;
+}
+
+.desciption-under {
+  padding: 20px 24px 20px 24px;
+  border-left: 1px solid var(--stroke);
+  border-right: 1px solid var(--stroke);
+  border-bottom: 1px solid var(--stroke);
+}
+.gallery-head {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--nav-studio-portfolio-contact);
+}
+
+.gallery-txt {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--nav-address-email-phone-p-);
+  margin-top: 4px;
+}
+
+.hero-main {
+  padding-top: 80px;
+  padding-bottom: 94px;
+}
+
+.btn-list {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.sort-btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  border-radius: 4px;
+  color: var(--nav-studio-portfolio-contact);
+  background-color: var(--portfolio-bottons-color);
+  transition: background-color, color, box-shadow;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
+  min-width: 73px;
+  max-height: 40.11px;
+  padding: 6.3px 25px 6.3px 25px;
+  border: 1px solid transparent;
+}
+
+.sort-btn:hover,
+.sort-btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.sort-btn:hover,
+.sort-btn:active,
+.sort-btn:focus {
+  background-color: var(--web-hover-button-up-down);
+  color: var(--main-white-color-h);
+}

@@ -1,0 +1,21 @@
+// #1 utils styles
+@import "./utils/_variables.scss";
+@import "./utils/v-hidden";
+
+// #2 base styles
+@import "./base/_base.scss";
+@import "./base/_reset.scss";
+
+// #3 components styles
+@import "./components/_container.scss";
+@import "./components/_container.scss";
+@import "./components/_navigation.scss";
+@import "./components/_main-studio.scss";
+@import "./components/_modal.scss";
+@import "./components/_strong-side-section.scss";
+@import "./components/_what-we-do-section.scss";
+@import "./components/_our-team-section.scss";
+@import "./components/_customers-section.scss";
+@import "./components/_footer.scss";
+@import "./components/_portfolio-page.scss";
+@import "./components/_card-set-portfolio.scss";
