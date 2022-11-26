@@ -90,7 +90,7 @@ button {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 480px;
+  width: 1200px;
 }
 
 @media screen and (min-width: 480px) {
@@ -108,16 +108,13 @@ button {
 @media screen and (min-width: 1140px) {
   .container {
     width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1200px;
   }
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 480px;
+  width: 1200px;
 }
 
 @media screen and (min-width: 480px) {
@@ -135,9 +132,6 @@ button {
 @media screen and (min-width: 1140px) {
   .container {
     width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1200px;
   }
 }
 
@@ -690,45 +684,47 @@ button {
   outline: none;
 }
 
-@media screen and (min-width: 1140px) {
-  .strength {
-    padding-top: 94px;
-  }
-  .strength__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 30px;
-  }
-  .strength__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-    color: var(--nav-studio-portfolio-contact);
-    margin-bottom: 10px;
-  }
-  .strength__description {
-    font-size: 13.5px;
-    line-height: calc(24 / 14);
-    color: var(--nav-address-email-phone-p-);
-  }
-  .strength__icon {
-    margin-bottom: 30px;
-    background-color: var(--portfolio-bottons-color);
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+.strength {
+  padding-top: 94px;
+}
+
+.strength__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.strength__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--nav-studio-portfolio-contact);
+  margin-bottom: 10px;
+}
+
+.strength__description {
+  font-size: 13.5px;
+  line-height: calc(24 / 14);
+  color: var(--nav-address-email-phone-p-);
+}
+
+.strength__icon {
+  margin-bottom: 30px;
+  background-color: var(--portfolio-bottons-color);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-pictures {

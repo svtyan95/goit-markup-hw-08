@@ -1,36 +1,34 @@
-@media screen and (min-width: 1140px) {
-  .strength {
-    padding-top: 94px;
-  }
+.strength {
+  padding-top: 94px;
+}
 
-  .strength__list {
-    display: flex;
-    gap: 30px;
-  }
+.strength__list {
+  display: flex;
+  gap: 30px;
+}
 
-  .strength__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-    color: var(--nav-studio-portfolio-contact);
-    margin-bottom: 10px;
-  }
+.strength__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--nav-studio-portfolio-contact);
+  margin-bottom: 10px;
+}
 
-  .strength__description {
-    font-size: 13.5px;
-    line-height: calc(24 / 14);
-    color: var(--nav-address-email-phone-p-);
-  }
+.strength__description {
+  font-size: 13.5px;
+  line-height: calc(24 / 14);
+  color: var(--nav-address-email-phone-p-);
+}
 
-  .strength__icon {
-    margin-bottom: 30px;
-    background-color: var(--portfolio-bottons-color);
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.strength__icon {
+  margin-bottom: 30px;
+  background-color: var(--portfolio-bottons-color);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
