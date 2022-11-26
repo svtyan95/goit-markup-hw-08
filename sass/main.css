@@ -91,6 +91,7 @@ button {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
+  min-width: 320px;
 }
 
 @media screen and (min-width: 480px) {
@@ -105,9 +106,9 @@ button {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1140px;
+    width: 1200px;
   }
 }
 
@@ -115,6 +116,7 @@ button {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
+  min-width: 320px;
 }
 
 @media screen and (min-width: 480px) {
@@ -129,9 +131,9 @@ button {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1140px;
+    width: 1200px;
   }
 }
 
@@ -689,10 +691,8 @@ button {
 }
 
 .strength__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   gap: 30px;
+  background-color: violet;
 }
 
 .strength__title {
