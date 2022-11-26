@@ -1,17 +1,13 @@
-.middle {
+.strength {
   padding-top: 94px;
 }
 
-.middle-list {
+.strength__list {
   display: flex;
   gap: 30px;
 }
 
-.middle-item {
-  flex-basis: calc((100% - 3 * 30px) / 4);
-}
-
-.middle-header {
+.strength__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -20,13 +16,13 @@
   margin-bottom: 10px;
 }
 
-.middle-text {
+.strength__description {
   font-size: 13.5px;
   line-height: calc(24 / 14);
   color: var(--nav-address-email-phone-p-);
 }
 
-.four-icons {
+.strength__icon {
   margin-bottom: 30px;
   background-color: var(--portfolio-bottons-color);
   width: 270px;

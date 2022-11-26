@@ -119,6 +119,9 @@ button {
 /* це вже позицюювання алементів */
 
 /* NAVIGATION DOWN : WHERE STUDIO WHITE COLOR */
+.logo-studio-white {
+  color: var(--main-white-color-h);
+}
 
 /* STUDIO | PORTFOLIO | CONTACT */
 .nav-menu-items {
@@ -619,10 +622,6 @@ ul {
 /* footer of web page */
 footer {
   background-color: var(--nav-backgroud-main);
-}
-
-.logo-studio-white {
-  color: var(--main-white-color-h);
 }
 
 .lower-section {

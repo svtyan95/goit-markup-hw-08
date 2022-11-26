@@ -1,8 +1,4 @@
-.hero-center {
-  margin: 0 auto;
-}
-
-.main-header {
+.hero {
   background-color: var(--nav-background-rgba-C4C4C4);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -16,10 +12,14 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/studio/mainbackground.jpg);
+    url("../images/studio/mainbackground.jpg");
 }
 
-.main-header-text {
+.hero__main {
+  margin: 0 auto;
+}
+
+.hero__text {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -32,7 +32,7 @@
   margin: 0 auto;
 }
 
-.main-header-button {
+.hero__button {
   font-family: inherit;
   background-color: var(--web-hover-button-up-down);
   border-radius: 4px;
@@ -49,17 +49,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.main-header-button:hover {
-  background-color: var(--header-button-active);
-  color: var(--main-white-color-h);
-}
-
-.main-header-button:focus {
-  background-color: var(--header-button-active);
-  color: var(--main-white-color-h);
-}
-
-.main-header-button:active {
+.hero__button:hover,
+.hero__button:focus,
+.hero__button:active {
   background-color: var(--header-button-active);
   color: var(--main-white-color-h);
 }

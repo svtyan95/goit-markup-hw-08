@@ -17,20 +17,20 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-  <link rel="stylesheet" href="./css/main.css">
-  <!-- <link rel="stylesheet" href="./style/style.css"> -->
-
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-  <header class="top">
-    <div class="header-container container">
-      <a href="./index.html" class="logo"><span class="logo-web-blue">Web</span><span
-          class="logo-web-black">Studio</span></a>
+  <header class="header-main">
+    <div class="container header-container">
+      <a href="./index.html" class="logo">
+        <span class="logo-web-blue">Web</span><span class="logo-web-black">Studio</span>
+      </a>
 
       <nav class="">
         <ul class="upper-list">
-          <a href="#" class="nav-menu-items current current-studio">Студія</a>
+          <li class="upper-item">
+            <a href="#" class="nav-menu-items current current-studio">Студія</a>
           </li>
           <li class="upper-item">
             <a href="./portfolio.html" class="nav-menu-items">Портфоліо</a>
@@ -62,66 +62,68 @@
   </header>
 
   <main>
-    <section class="main-header">
+    <section class="hero">
       <div class="container">
-        <div class="hero-center">
-          <h1 class="main-header-text">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="main-header-button" data-modal-open>Замовити послугу</button>
+        <div class="hero__main">
+          <h1 class="hero__text">Ефективні рішення для вашого бізнесу</h1>
+
+          <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
       </div>
     </section>
 
-    <section class="middle">
-      <!-- цей заголовок для пошукових систем який будемо  приховувати, інфо від ментора який перевіряв дз -->
-      <!-- for CEO OPTIMIZATION -->
+    <section class="strength">
       <div class="container">
         <h2 class="visually-hidden">Наші переваги</h2>
-        <ul class="middle-list">
-          <li class="middle-item">
-            <div class="four-icons">
-              <svg class="icons-middle-items" width="70" height="70">
+
+        <ul class="strength__list">
+
+          <li class="">
+            <div class="strength__icon">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="middle-header">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="middle-text">
+            <h3 class="strength__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="strength__description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="middle-item ">
-            <div class="four-icons">
-              <svg class="icons-middle-items" width="70" height="70">
+
+          <li class="">
+            <div class="strength__icon">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="middle-header">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="middle-text">
+            <h3 class="strength__title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="strength__description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
 
-          <li class="middle-item">
-            <div class="four-icons">
-              <svg class="icons-middle-items" width="70" height="70">
+          <li class="">
+            <div class="strength__icon">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-diagram"></use>
               </svg>
             </div>
-
-            <h3 class="middle-header">ПЛАНУВАННЯ</h3>
-            <p class="middle-text">
+            <h3 class="strength__title">ПЛАНУВАННЯ</h3>
+            <p class="strength__description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="middle-item">
-            <div class="four-icons">
-              <svg class="icons-middle-items" width="70" height="70">
+
+          <li class="">
+            <div class="strength__icon">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="middle-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="middle-text">
+            <h3 class="strength__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="strength__description">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
