@@ -2,14 +2,9 @@
   padding-top: 94px;
 }
 
-@media screen and (min-width: $mobile) {
-  .strength__list {
-  }
-}
-
 .strength__list {
+  display: flex;
   gap: 30px;
-  background-color: violet;
 }
 
 .strength__title {
