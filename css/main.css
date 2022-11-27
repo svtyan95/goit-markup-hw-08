@@ -96,18 +96,24 @@ button {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 1140px) {
   .container {
     width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
@@ -120,18 +126,24 @@ button {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 1140px) {
   .container {
     width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
@@ -685,14 +697,39 @@ button {
 }
 
 .strength {
-  padding-top: 94px;
+  padding-top: 60px;
 }
 
-.strength__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
+@media screen and (min-width: 768px) {
+  .strength {
+    padding-top: 94px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .strength {
+    padding-top: 94px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strength__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .strength__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.strength__item {
+  width: 354px;
 }
 
 .strength__title {
@@ -713,7 +750,7 @@ button {
 .strength__icon {
   margin-bottom: 30px;
   background-color: var(--portfolio-bottons-color);
-  width: 270px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   display: -webkit-box;

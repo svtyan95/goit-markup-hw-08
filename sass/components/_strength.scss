@@ -1,12 +1,27 @@
 .strength {
-  padding-top: 94px;
+  padding-top: 60px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 94px;
+  }
+
+  @media screen and (min-width: 1140px) {
+    padding-top: 94px;
+  }
 }
 
 .strength__list {
-  display: flex;
-  gap: 30px;
-}
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 
+  @media screen and (min-width: 1140px) {
+    display: flex;
+  }
+}
+.strength__item {
+  width: 354px;
+}
 .strength__title {
   font-weight: 700;
   font-size: 14px;
@@ -25,10 +40,12 @@
 .strength__icon {
   margin-bottom: 30px;
   background-color: var(--portfolio-bottons-color);
-  width: 270px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+//  flex-basis: calc(100% / 3 - var(--card-set-gap));
