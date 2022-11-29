@@ -8,6 +8,27 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1140px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+}
+
+.customers-items {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1140px) {
+  }
 }
 
 .customers-link {
