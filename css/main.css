@@ -155,31 +155,89 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 60px;
 }
 
-.header-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 768px) {
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.nav-items {
+  display: none;
 }
 
 .upper-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 50px;
-  margin-left: auto;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .upper-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .upper-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
 }
 
 .logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   line-height: calc(31 / 26);
   margin-right: 93px;
+  letter-spacing: 0.03em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    margin-right: 93px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    margin-right: 93px;
+  }
 }
 
 .logo-web-blue {
@@ -323,6 +381,28 @@ button {
   color: var(--web-hover-button-up-down);
 }
 
+.menu-mobile {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-mobile .icon-close-mobile {
+  display: none;
+}
+
+.menu-mobile.is-open .icon-close-mobile {
+  display: block;
+}
+
+.menu-mobile.is-open .icon-mobile-menu {
+  display: none;
+}
+
 .hero {
   background-color: var(--nav-background-rgba-C4C4C4);
   padding-top: 200px;
@@ -339,7 +419,14 @@ button {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../../images/phone-img/bg/bg_960.jpg");
+    background-image: url("../images/phone/bg/bg_960.jpg");
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/studio/mainbackground.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/studio/mainbackground.jpg");
   }
 }
 

@@ -21,13 +21,22 @@
 </head>
 
 <body>
-  <!-- <header class="header-main">
+  <header class="header-main">
     <div class="container header-container">
+
       <a href="./index.html" class="logo">
         <span class="logo-web-blue">Web</span><span class="logo-web-black">Studio</span>
       </a>
+      <button type="button" class="menu-mobile is-open" data-menu-button>
+        <svg width="40" height="40" aria-label="switcher-logos">
+          <use href="./images/sprite.svg#btn-close-mobile" class="icon-close-mobile">
+          </use>
+          <use href="./images/sprite.svg#menu_mobile" class="icon-mobile-menu"></use>
+        </svg>
+      </button>
 
-      <nav class="">
+
+      <nav class="nav-items">
         <ul class="upper-list">
           <li class="upper-item">
             <a href="#" class="nav-menu-items current current-studio">Студія</a>
@@ -59,7 +68,7 @@
         </li>
       </ul>
     </div>
-  </header> -->
+  </header>
 
   <main>
     <section class="hero">
@@ -72,7 +81,7 @@
       </div>
     </section>
 
-    <section class="strength">
+    <!-- <section class="strength">
       <div class="container">
         <h2 class="visually-hidden">Наші переваги</h2>
 
@@ -375,7 +384,7 @@
 
         </ul>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <!-- <footer class="lower-section">
@@ -527,6 +536,7 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
