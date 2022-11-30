@@ -90,7 +90,7 @@ button {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 200;
+  width: 320;
 }
 
 @media screen and (min-width: 480px) {
@@ -120,7 +120,7 @@ button {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 200;
+  width: 320;
 }
 
 @media screen and (min-width: 480px) {
@@ -333,8 +333,14 @@ button {
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/studio/mainbackground.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/mainbackground.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/phone/bg/bg_480.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/phone/bg/bg_480.jpg");
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../images/phone-img/bg/bg_960.jpg");
+  }
 }
 
 .hero__main {
@@ -348,10 +354,15 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white-color-h);
-  width: 696px;
-  height: 120px;
   text-align: center;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__text {
+    width: 696px;
+    height: 120px;
+  }
 }
 
 .hero__button {
@@ -698,6 +709,7 @@ button {
 
 .strength {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -940,7 +952,6 @@ button {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 250px;
   margin-bottom: 30px;
   -ms-flex-preferred-size: calc(100% / 1 - var(--card-set-gap));
       flex-basis: calc(100% / 1 - var(--card-set-gap));
