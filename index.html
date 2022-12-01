@@ -22,12 +22,11 @@
 
 <body>
   <header class="header-main">
-    <div class="container header-container">
-
+    <div class="container">
       <a href="./index.html" class="logo">
         <span class="logo-web-blue">Web</span><span class="logo-web-black">Studio</span>
       </a>
-      <button type="button" class="menu-mobile is-open" data-menu-button>
+      <button type="button" class="menu-mobile is-open" aria-expanded="false" data-menu-button>
         <svg width="40" height="40" aria-label="switcher-logos">
           <use href="./images/sprite.svg#btn-close-mobile" class="icon-close-mobile">
           </use>
@@ -35,8 +34,7 @@
         </svg>
       </button>
 
-
-      <nav class="nav-items">
+      <nav class="nav-items menu-container is-open" data-menu>
         <ul class="upper-list">
           <li class="upper-item">
             <a href="#" class="nav-menu-items current current-studio">Студія</a>
@@ -48,25 +46,25 @@
             <a href="#" class="nav-menu-items">Контакти</a>
           </li>
         </ul>
-      </nav>
 
-      <ul class="upper-list">
-        <li class="upper-item">
-          <a href="mailto:info@devstudio.com" class="nav-menu-items-info-top">info@devstudio.com
-            <svg class="icons-header" width=" 16" height="12">
-              <use href="./images/sprite.svg#icon-envelope"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="upper-item">
-          <a href="tel:+380961111111" class="nav-menu-items-info-top">
-            +38 096 111 11 11
-            <svg class="icons-header" width=" 10" height="16">
-              <use href="./images/sprite.svg#icon-smartphone"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <ul class="upper-list">
+          <li class="upper-item">
+            <a href="mailto:info@devstudio.com" class="nav-menu-items-info-top">info@devstudio.com
+              <svg class="icons-header" width=" 16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="upper-item">
+            <a href="tel:+380961111111" class="nav-menu-items-info-top">
+              +38 096 111 11 11
+              <svg class="icons-header" width=" 10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
