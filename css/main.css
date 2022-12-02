@@ -416,6 +416,7 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
     left: 425px;
+    background-color: transparent;
   }
   .header-page {
     -webkit-box-pack: justify;
@@ -528,6 +529,16 @@ button {
   .nav-menu-items:focus {
     color: var(--blue-bg-button);
     fill: var(--header-button-active);
+  }
+  .logo-web-blue {
+    color: #000000;
+  }
+  .logo-web-black {
+    color: #000000;
+  }
+  .icon-mobile-menu {
+    fill: #000000;
+    background-color: transparent;
   }
 }
 
