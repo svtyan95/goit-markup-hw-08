@@ -26,7 +26,6 @@
 }
 
 .hero-main {
-  padding-top: 80px;
   padding-bottom: 94px;
 }
 
@@ -37,7 +36,7 @@
   gap: 8px;
   justify-content: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     margin-top: 60px;
     margin-bottom: 14px;
   }
@@ -74,7 +73,7 @@
   color: var(--main-white-color-h);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .btn-list {
     display: flex;
     flex-direction: row;

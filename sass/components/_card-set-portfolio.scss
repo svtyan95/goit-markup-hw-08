@@ -19,6 +19,9 @@
     margin-left: 0;
     justify-content: center;
   }
+  @media screen and (max-width: 1140px) {
+    flex-basis: calc(100% / 2 - var(--card-set-gap));
+  }
 }
 
 .gallery-link:hover,
