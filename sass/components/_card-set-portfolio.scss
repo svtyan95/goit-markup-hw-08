@@ -13,6 +13,12 @@
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+  }
 }
 
 .gallery-link:hover,
@@ -51,4 +57,11 @@
 
 .gallery-link:focus .overlay {
   transform: translateY(0%);
+}
+
+@media screen and (max-width: 768px) {
+  .card-set {
+    display: flex;
+    flex-direction: column;
+  }
 }

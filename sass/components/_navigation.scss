@@ -182,7 +182,7 @@
   .upper-lists {
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .menu-toggle {
@@ -202,6 +202,7 @@
   }
 
   .menu-container {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -301,6 +302,11 @@
   .icon-mobile-menu {
     fill: #000000;
     background-color: transparent;
+  }
+
+  .upper-item.nav-menu-items-info-top:hover {
+    color: blue;
+    font-size: 30px;
   }
 }
 

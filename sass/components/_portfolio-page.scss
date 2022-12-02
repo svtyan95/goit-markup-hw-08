@@ -31,10 +31,16 @@
 }
 
 .btn-list {
+  margin-top: 94px;
   margin-bottom: 20px;
   display: flex;
   gap: 8px;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 14px;
+  }
 }
 
 .sort-btn {
@@ -66,4 +72,13 @@
 .sort-btn:focus {
   background-color: var(--web-hover-button-up-down);
   color: var(--main-white-color-h);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
