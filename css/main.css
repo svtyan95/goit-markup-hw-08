@@ -541,6 +541,12 @@ button {
   .upper-lists {
     display: none;
   }
+  .sociable-items {
+    display: none;
+  }
+  .soc-itms {
+    display: none;
+  }
 }
 
 .hero {

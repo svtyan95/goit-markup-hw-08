@@ -22,26 +22,34 @@
 
 <body>
   <header class="header-main">
-    <div class="header-container container">
-      <div class="header-container">
+    <div class="container">
+      <div class="header-page">
+
         <a href="./index.html" class="logo">
           <span class="logo-web-blue">Web</span><span class="logo-web-black">Studio</span>
         </a>
 
-        <nav class="nav-section">
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="40" height="40" aria-label="switcher-logos">
+            <use href="./images/sprite.svg#menu_mobile" class="icon-mobile-menu"></use>
+          </svg>
+        </button>
+
+
+
+        <nav class="nav-section" data-menu>
           <ul class="nav-list">
             <li class="nav-item">
               <a href="./index.html" class="nav-menu-items">Студія</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-menu-items current current-portfolio">Портфоліо</a>
+              <a href="#" class="nav-menu-items current current-studio">Портфоліо</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-menu-items">Контакти</a>
             </li>
           </ul>
         </nav>
-
         <ul class="upper-list">
           <li class="upper-item">
             <a href="mailto:info@devstudio.com" class="nav-menu-items-info-top">info@devstudio.com
@@ -62,8 +70,6 @@
       </div>
     </div>
   </header>
-
-
   <main>
     <section class="hero-main">
       <div class="container">
