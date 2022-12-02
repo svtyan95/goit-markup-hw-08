@@ -28,13 +28,13 @@
       url("../images/studio/mainbackground.jpg");
   }
 
-  @media screen and (min-width: 1140px) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/studio/mainbackground.jpg");
-  }
+  // @media screen and (min-width: 1140px) {
+  //   background-image: linear-gradient(
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)
+  //     ),
+  //     url("../images/studio/mainbackground.jpg");
+  // }
 }
 
 .hero__main {
