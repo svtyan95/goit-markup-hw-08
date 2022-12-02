@@ -13,7 +13,7 @@ footer {
 .lower-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  max-height: 252px;
+  max-height: auto;
 }
 
 .address-down {
@@ -25,20 +25,26 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  display: flex;
+  justify-content: center;
 }
 
 .join-us-main {
   display: flex;
-  align-items: baseline;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .joinus-middle {
-  margin-left: 79px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .joinus-list {
@@ -60,8 +66,17 @@ footer {
   margin-bottom: 9px;
 }
 
+.lower-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .subscription-main {
-  margin-left: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .second-part {
@@ -76,6 +91,7 @@ footer {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  flex-direction: column;
 }
 
 .mail-input {
@@ -134,4 +150,50 @@ footer {
 .nav-menu-items-info:focus {
   color: var(--blue-bg-button);
   fill: var(--header-button-active);
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1140px) {
+  .join-us-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .joinus-middle {
+    margin-left: 79px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+  }
+
+  .lower-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-height: 252px;
+  }
+
+  .lower-list {
+    display: block;
+  }
+
+  .logo-down-web {
+    display: block;
+  }
+
+  .subscription-main {
+    margin-left: 93px;
+  }
+
+  .email-button-part {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
 }

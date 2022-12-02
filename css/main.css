@@ -430,8 +430,8 @@ button {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -443,8 +443,8 @@ button {
     transition: var(--transition--250ms--);
   }
   .menu-container.is-open {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     -webkit-transition: var(--transition--250ms--);
     transition: var(--transition--250ms--);
   }
@@ -1365,7 +1365,7 @@ footer {
 .lower-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  max-height: 252px;
+  max-height: auto;
 }
 
 .address-down {
@@ -1378,26 +1378,48 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .join-us-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .joinus-middle {
-  margin-left: 79px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .joinus-list {
@@ -1421,8 +1443,33 @@ footer {
   margin-bottom: 9px;
 }
 
+.lower-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .subscription-main {
-  margin-left: 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .second-part {
@@ -1441,6 +1488,10 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .mail-input {
@@ -1511,6 +1562,50 @@ footer {
 .nav-menu-items-info:focus {
   color: var(--blue-bg-button);
   fill: var(--header-button-active);
+}
+
+@media screen and (min-width: 1140px) {
+  .join-us-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .joinus-middle {
+    margin-left: 79px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+  }
+  .lower-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-height: 252px;
+  }
+  .lower-list {
+    display: block;
+  }
+  .logo-down-web {
+    display: block;
+  }
+  .subscription-main {
+    margin-left: 93px;
+  }
+  .email-button-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
 }
 
 .gallery-link {
