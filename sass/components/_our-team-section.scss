@@ -59,6 +59,10 @@
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - var(--card-set-gap));
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .team-img {

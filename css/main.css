@@ -62,7 +62,6 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -109,7 +108,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1140px;
     margin: 0 auto;
@@ -139,7 +138,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1140px;
     margin: 0 auto;
@@ -567,7 +566,7 @@ button {
   background-position-x: center;
   background-size: cover;
   margin: 0 auto;
-  max-width: auto;
+  max-width: 1600px;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -949,7 +948,6 @@ button {
 
 .strength {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -961,6 +959,12 @@ button {
 @media screen and (min-width: 1140px) {
   .strength {
     padding-top: 94px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .strength {
+    padding-bottom: 66px;
   }
 }
 
@@ -1065,6 +1069,9 @@ button {
     display: -ms-flexbox;
     display: flex;
     gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .what-items {
     gap: 30px;
@@ -1091,7 +1098,7 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    top: 210px;
+    top: 225px;
     background-color: var(--what-we-do-descrption-bg);
     font-weight: 700;
     font-size: 14px;
@@ -1201,6 +1208,12 @@ button {
   .team-item {
     -ms-flex-preferred-size: calc(100% / 2 - var(--card-set-gap));
         flex-basis: calc(100% / 2 - var(--card-set-gap));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-item {
+    margin-bottom: 0;
   }
 }
 
@@ -1446,9 +1459,6 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

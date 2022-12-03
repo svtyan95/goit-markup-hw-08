@@ -12,6 +12,7 @@
   .whatwedo-list {
     display: flex;
     gap: 30px;
+    justify-content: center;
   }
 
   .what-items {
@@ -32,7 +33,7 @@
     color: var(--stroke);
     justify-content: center;
     align-items: center;
-    top: 210px;
+    top: 225px;
     background-color: var(--what-we-do-descrption-bg);
 
     font-weight: 700;
