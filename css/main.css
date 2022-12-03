@@ -87,6 +87,8 @@ button {
 }
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   margin: 0 auto;
   padding: 0 15px;
   width: auto;
@@ -113,10 +115,14 @@ button {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   margin: 0 auto;
   padding: 0 15px;
   width: auto;
@@ -143,6 +149,8 @@ button {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
