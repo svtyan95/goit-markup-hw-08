@@ -8,16 +8,23 @@
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  // background-image: linear-gradient(
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url("../images/phone/bg/bg_480.jpg");
 
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url("../images/phone/bg/bg_960.jpg");
+  @media screen and (max-width: 767px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/phone/bg/bg_480.jpg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/phone/bg/bg_960.jpg);
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -25,16 +32,35 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/studio/mainbackground.jpg");
+      url(../images/tablet/bg/bg_tablet_768.jpg);
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/tablet/bg/bg_tablet_1536.jpg);
+    }
   }
 
-  // @media screen and (min-width: 1140px) {
-  //   background-image: linear-gradient(
-  //       rgba(47, 48, 58, 0.4),
-  //       rgba(47, 48, 58, 0.4)
-  //     ),
-  //     url("../images/studio/mainbackground.jpg");
-  // }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desctop/main-bg_1600.jpg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/desctop/main-bg_3200.jpg);
+    }
+  }
 }
 
 .hero__main {

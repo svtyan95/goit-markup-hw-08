@@ -66,13 +66,15 @@
 }
 
 .team-img {
-  // width: 100%;
-
   @media screen and (min-width: 768px) {
     width: 354px;
   }
 
   @media screen and (min-width: 1140px) {
+  }
+
+  @media screen and (max-width: 768px) {
+    min-width: 354px;
   }
 }
 
