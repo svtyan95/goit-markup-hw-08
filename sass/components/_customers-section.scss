@@ -10,6 +10,12 @@
   gap: 30px;
   flex-wrap: wrap;
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
   @media screen and (min-width: 768px) {
   }
 
@@ -32,7 +38,7 @@
 }
 
 .customers-link {
-  width: 210px;
+  min-width: 170px;
   height: 92px;
   display: flex;
   justify-content: center;
@@ -45,7 +51,6 @@
   transition-timing-function: var(--cubic-bezier--);
 
   @media screen and (min-width: 768px) {
-    width: 226px;
   }
 
   @media screen and (min-width: 1140px) {
