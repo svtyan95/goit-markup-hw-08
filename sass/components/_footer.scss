@@ -298,7 +298,7 @@ footer {
     align-items: center;
   }
 
-  @media screen and (min-width: 768px) {
-    align-items: flex-start;
+  @media screen and (min-width: 767px) {
+    // align-items: flex-start;
   }
 }

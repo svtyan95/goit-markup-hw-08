@@ -10,8 +10,8 @@
   max-width: 1600px;
 
   @media screen and (max-width: 768px) {
-    padding-top: 118px;
-    padding-bottom: 118px;
+    padding-top: 108px;
+    padding-bottom: 108px;
   }
 
   @media screen and (max-width: 767px) {
@@ -74,7 +74,7 @@
 
 .hero__text {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -83,11 +83,13 @@
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
+    font-size: 40px;
   }
 
   @media screen and (min-width: 1140px) {
     width: 696px;
     height: 120px;
+    font-size: 44px;
   }
 }
 
