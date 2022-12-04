@@ -239,6 +239,10 @@
   .mobile-menu {
     padding: 0;
     margin: 0;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 302px;
+    }
   }
 
   .nav-menu-items {
