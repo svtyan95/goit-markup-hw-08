@@ -1068,9 +1068,7 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    gap: 30px;
   }
 }
 
@@ -1082,12 +1080,6 @@ button {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     gap: 30px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .s-i-position {
-    padding-bottom: 30px;
   }
 }
 
@@ -1245,13 +1237,14 @@ button {
   color: var(--nav-studio-portfolio-contact);
   display: block;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1140px) {
   .team-header-text {
     font-size: 36px;
     line-height: calc(42 / 36);
+    margin-bottom: 50px;
   }
 }
 
@@ -1402,6 +1395,13 @@ button {
 .our-customers {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+@media screen and (max-width: 1140px) {
+  .our-customers {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
 
 .customers-list {
@@ -1582,19 +1582,6 @@ footer {
 
 .lower-list-itemss {
   margin-bottom: 9px;
-}
-
-.lower-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .second-part {
@@ -1899,6 +1886,35 @@ footer {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+  }
+}
+
+.lower-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .lower-list {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lower-list {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 

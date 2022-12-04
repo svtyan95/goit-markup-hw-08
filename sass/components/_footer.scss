@@ -18,6 +18,7 @@ footer {
 .address-down {
   margin-top: 20px;
 }
+
 .logo-down-web {
   text-decoration: none;
   font-family: "Raleway";
@@ -59,12 +60,6 @@ footer {
 
 .lower-list-itemss {
   margin-bottom: 9px;
-}
-
-.lower-list {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .second-part {
@@ -291,5 +286,19 @@ footer {
   @media screen and (min-width: 1200px) {
     margin-top: 0;
     align-items: baseline;
+  }
+}
+
+.lower-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 767px) {
+    align-items: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
   }
 }

@@ -1,6 +1,11 @@
 .our-customers {
   padding-bottom: 94px;
   padding-top: 94px;
+
+  @media screen and (max-width: 1140px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
 
 .customers-list {
