@@ -16,8 +16,6 @@
   flex-wrap: wrap;
 
   @media screen and (max-width: 768px) {
-    flex-direction: column;
-    flex-wrap: nowrap;
     align-items: stretch;
   }
 
