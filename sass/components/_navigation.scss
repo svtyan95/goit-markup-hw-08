@@ -69,6 +69,10 @@
   transition: color, fill;
   transition-duration: var(--transition--250ms--);
   transition-timing-function: var(--cubic-bezier--);
+
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .nav-menu-items:hover,

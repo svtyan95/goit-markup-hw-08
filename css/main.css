@@ -265,6 +265,12 @@ button {
           transition-timing-function: var(--cubic-bezier--);
 }
 
+@media screen and (max-width: 768px) {
+  .nav-menu-items {
+    padding-top: 0;
+  }
+}
+
 .nav-menu-items:hover,
 .nav-menu-items:focus {
   color: var(--blue-bg-button);
