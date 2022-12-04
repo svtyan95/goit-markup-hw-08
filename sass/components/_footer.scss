@@ -1,13 +1,12 @@
 .logo-studio-white {
   color: var(--main-white-color-h);
+  @media screen and (max-width: 767px) {
+    color: #000000;
+  }
 }
 
 footer {
   background-color: var(--nav-backgroud-main);
-}
-
-.logo-studio-white {
-  color: var(--main-white-color-h);
 }
 
 .lower-section {
@@ -192,6 +191,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: baseline;
   }
 
   .joinus-middle {

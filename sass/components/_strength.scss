@@ -15,16 +15,24 @@
 }
 
 .strength__list {
-  gap: 30px;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    justify-content: space-between;
   }
 
   @media screen and (min-width: 1140px) {
     display: flex;
     flex-wrap: nowrap;
+    gap: 30px;
+  }
+}
+
+.s-i-position {
+  @media screen and (min-width: 768px) {
+    padding-bottom: 30px;
   }
 }
 
@@ -48,6 +56,10 @@
   margin-bottom: 10px;
   text-align: center;
   margin-top: 30px;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .strength__description {

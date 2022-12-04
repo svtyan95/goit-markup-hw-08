@@ -290,6 +290,20 @@ button {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .icons-header {
+    width: 14px;
+    height: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icons-header-size {
+    width: 10px;
+    height: 14px;
+  }
+}
+
 .nav-menu-items-info-top {
   color: var(--nav-address-email-phone-p-);
   font-weight: 500;
@@ -492,9 +506,8 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     position: relative;
   }
   .sociable-items {
@@ -504,18 +517,6 @@ button {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-  .soc-itms::after {
-    background-color: rgba(33, 33, 33, 0.2);
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    content: "";
-    height: 22px;
-    width: 2px;
   }
   .nav-menu-items-map:hover,
   .nav-menu-items-map:focus {
@@ -575,6 +576,13 @@ button {
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -708,6 +716,12 @@ button {
   padding: 40px;
 }
 
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 420px;
+  }
+}
+
 .btn-close {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -788,6 +802,12 @@ button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+  .size-input {
+    width: 350px;
+  }
+}
+
 .input-icon {
   position: absolute;
   display: -webkit-box;
@@ -834,6 +854,12 @@ button {
   padding: 12px 12px;
   resize: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .size-input-feedback {
+    width: 350px;
+  }
 }
 
 ::-webkit-input-placeholder {
@@ -908,6 +934,7 @@ button {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--nav-address-email-phone-p-);
+  letter-spacing: 0.01em;
 }
 
 .policy-text-link {
@@ -983,6 +1010,22 @@ button {
   outline: none;
 }
 
+@media screen and (max-width: 768px) {
+  .icons-modal-properties {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icons-modal-text {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: calc(40 / 34);
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+}
+
 .strength {
   padding-top: 60px;
 }
@@ -1005,10 +1048,6 @@ button {
   }
 }
 
-.strength__list {
-  gap: 30px;
-}
-
 @media screen and (min-width: 768px) {
   .strength__list {
     display: -webkit-box;
@@ -1019,6 +1058,10 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -1029,6 +1072,13 @@ button {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .s-i-position {
+    padding-bottom: 30px;
   }
 }
 
@@ -1059,6 +1109,12 @@ button {
   margin-bottom: 10px;
   text-align: center;
   margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .strength__title {
+    text-align: left;
+  }
 }
 
 .strength__description {
@@ -1376,7 +1432,7 @@ button {
 }
 
 .customers-link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1398,6 +1454,18 @@ button {
           transition-timing-function: var(--cubic-bezier--);
 }
 
+@media screen and (min-width: 768px) {
+  .customers-link {
+    width: 226px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .customers-link {
+    width: 170px;
+  }
+}
+
 .icons-customers {
   fill: currentColor;
 }
@@ -1412,12 +1480,14 @@ button {
   color: var(--main-white-color-h);
 }
 
-footer {
-  background-color: var(--nav-backgroud-main);
+@media screen and (max-width: 767px) {
+  .logo-studio-white {
+    color: #000000;
+  }
 }
 
-.logo-studio-white {
-  color: var(--main-white-color-h);
+footer {
+  background-color: var(--nav-backgroud-main);
 }
 
 .lower-section {
@@ -1674,6 +1744,9 @@ footer {
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
   .joinus-middle {
     margin-left: 0;
