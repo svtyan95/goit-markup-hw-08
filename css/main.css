@@ -248,7 +248,6 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 32px;
   padding-bottom: 33px;
   border-bottom: red;
   font-weight: 500;
@@ -336,6 +335,13 @@ button {
   .nav-menu-items-info-top {
     padding-bottom: 32px;
     padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu-items-info-top {
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 
@@ -491,7 +497,7 @@ button {
     letter-spacing: 0.02em;
   }
   .nav-menu-items-info-top {
-    padding-top: 30px;
+    margin-top: 30px;
     font-size: 20px;
   }
   .btn-close-position {
@@ -727,7 +733,7 @@ button {
 
 @media screen and (max-width: 480px) {
   .modal {
-    width: 420px;
+    width: 350px;
   }
 }
 
@@ -813,7 +819,7 @@ button {
 
 @media screen and (max-width: 480px) {
   .size-input {
-    width: 350px;
+    width: 270px;
   }
 }
 
@@ -867,7 +873,7 @@ button {
 
 @media screen and (max-width: 480px) {
   .size-input-feedback {
-    width: 350px;
+    width: 271px;
   }
 }
 
