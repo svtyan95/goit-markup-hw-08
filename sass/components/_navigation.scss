@@ -94,16 +94,26 @@
 .icons-header {
   margin-right: 10px;
 
-  @media screen and (min-width: 768px) {
-    width: 14px;
-    height: 10px;
+  @media screen and (max-width: 1200px) {
+    width: 10px;
+    height: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
   }
 }
 
 .icons-header-size {
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1200px) {
+    width: 14px;
+    height: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
     width: 10px;
-    height: 14px;
+    height: 16px;
   }
 }
 
@@ -269,28 +279,20 @@
   }
 
   .sociable-list {
+    position: relative;
     padding-top: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     position: relative;
+    max-width: 357px;
   }
 
   .sociable-items {
     display: flex;
     justify-content: space-between;
   }
-
-  // .soc-itms::after {
-  //   background-color: rgba(33, 33, 33, 0.2);
-  //   transform: rotate(180deg);
-  //   position: absolute;
-  //   display: flex;
-  //   content: "";
-  //   height: 22px;
-  //   width: 2px;
-  // }
 
   .nav-menu-items-map:hover,
   .nav-menu-items-map:focus {
@@ -346,4 +348,38 @@
   .soc-itms {
     display: none;
   }
+}
+
+.additional-position {
+  @media screen and (max-width: 768px) {
+    padding-top: 170px;
+  }
+}
+
+.sociable-link-logo {
+  @media screen and (max-width: 768px) {
+    font-family: "Roboto";
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: 0.02em;
+
+    color: #2196f3;
+    text-decoration: none;
+  }
+}
+
+.soc-itms::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+.soc-itms {
+  display: flex;
+  gap: 7px;
 }

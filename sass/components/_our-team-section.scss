@@ -47,6 +47,11 @@
     display: flex;
     flex-wrap: nowrap;
   }
+
+  @media screen and (max-width: 768px) {
+    display: inline-flex;
+    gap: 30px;
+  }
 }
 
 .team-item {
@@ -59,10 +64,16 @@
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - var(--card-set-gap));
+    margin-bottom: 0;
   }
 
   @media screen and (min-width: 1200px) {
     margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+    width: 100%;
   }
 }
 
@@ -76,7 +87,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    min-width: 354px;
+    width: 100%;
   }
 }
 

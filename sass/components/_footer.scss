@@ -181,14 +181,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .join-us-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-  }
-
   .joinus-middle {
     margin-left: 0;
   }
@@ -208,7 +200,14 @@ footer {
     }
   }
 
-  .email-button-part {
+  .join-us-main {
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: baseline;
+    }
   }
 
   .submit-btn {
@@ -235,7 +234,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-right: 44px;
+    margin-right: 82px;
   }
   .join-us-main {
     display: flex;
@@ -259,12 +258,15 @@ footer {
 
   .joinus-middle {
     align-items: flex-start;
+
+    @media screen and (min-width: 1140px) {
+      margin-right: 105px;
+    }
   }
 
   .email-button-part {
     display: flex;
     flex-direction: row;
-    margin-left: 83px;
   }
 
   .submit-btn {
@@ -299,6 +301,6 @@ footer {
   }
 
   @media screen and (min-width: 767px) {
-    // align-items: flex-start;
+    align-items: flex-start;
   }
 }
