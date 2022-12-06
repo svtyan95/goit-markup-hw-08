@@ -1067,6 +1067,44 @@ button {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .modal {
+    width: 300px;
+    padding: 30px 20px 30px 20px;
+  }
+  .size-input {
+    width: 260px;
+  }
+  .size-input-feedback {
+    width: 260px;
+  }
+  .policy-text {
+    font-size: 8px;
+  }
+  .policy-text-link {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 590px) {
+  .modal {
+    width: 420px;
+    padding: 35px 25px 35px 25px;
+  }
+  .size-input {
+    width: 370px;
+  }
+  .size-input-feedback {
+    width: 370px;
+  }
+  .policy-text {
+    font-size: 12px;
+  }
+  .policy-text-link {
+    font-size: 12px;
+  }
+}
+
 .strength {
   padding-top: 60px;
 }

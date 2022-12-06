@@ -30,26 +30,6 @@
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
   padding: 40px;
-
-  // @media screen and (max-width: 320px) {
-  //   width: 290px;
-  // }
-
-  // @media screen and (max-width: 400px) {
-  //   width: 350px;
-  // }
-
-  // @media screen and (max-width: 500px) {
-  //   width: 450px;
-  // }
-
-  // @media screen and (max-width: 600px) {
-  //   width: 550px;
-  // }
-
-  // @media screen and (max-width: 768px) {
-  //   width: 600px;
-  // }
 }
 
 .btn-close {
@@ -109,26 +89,6 @@
   border-radius: 4px;
   position: relative;
   cursor: pointer;
-
-  // @media screen and (max-width: 320px) {
-  //   width: 290px;
-  // }
-
-  // @media screen and (max-width: 380px) {
-  //   width: 350px;
-  // }
-
-  // @media screen and (max-width: 460px) {
-  //   width: 410px;
-  // }
-
-  // @media screen and (max-width: 550px) {
-  //   width: 500px;
-  // }
-
-  // @media screen and (max-width: 768px) {
-  //   width: 600px;
-  // }
 }
 
 .input-icon {
@@ -173,17 +133,6 @@
   padding: 12px 12px;
   resize: none;
   cursor: pointer;
-
-  // @media screen and (max-width: 350px) {
-  //   width: 271px;
-  // }
-  // @media screen and (max-width: 480px) {
-  //   width: 320px;
-  // }
-
-  // @media screen and (max-width: 768px) {
-  //   width: 380px;
-  // }
 }
 
 ::placeholder {
@@ -299,5 +248,50 @@
     line-height: calc(40 / 34);
     letter-spacing: 0.001em;
     color: #2196f3;
+  }
+}
+
+// iphone xr, 12, samsung s20, till 420px
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .modal {
+    width: 300px;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .size-input {
+    width: 260px;
+  }
+  .size-input-feedback {
+    width: 260px;
+  }
+
+  .policy-text {
+    font-size: 8px;
+  }
+
+  .policy-text-link {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 590px) {
+  .modal {
+    width: 420px;
+    padding: 35px 25px 35px 25px;
+  }
+
+  .size-input {
+    width: 370px;
+  }
+  .size-input-feedback {
+    width: 370px;
+  }
+
+  .policy-text {
+    font-size: 12px;
+  }
+
+  .policy-text-link {
+    font-size: 12px;
   }
 }
