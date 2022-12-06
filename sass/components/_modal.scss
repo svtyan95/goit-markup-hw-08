@@ -31,9 +31,25 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
   padding: 40px;
 
-  @media screen and (max-width: 480px) {
-    width: 350px;
-  }
+  // @media screen and (max-width: 320px) {
+  //   width: 290px;
+  // }
+
+  // @media screen and (max-width: 400px) {
+  //   width: 350px;
+  // }
+
+  // @media screen and (max-width: 500px) {
+  //   width: 450px;
+  // }
+
+  // @media screen and (max-width: 600px) {
+  //   width: 550px;
+  // }
+
+  // @media screen and (max-width: 768px) {
+  //   width: 600px;
+  // }
 }
 
 .btn-close {
@@ -94,9 +110,25 @@
   position: relative;
   cursor: pointer;
 
-  @media screen and (max-width: 480px) {
-    width: 270px;
-  }
+  // @media screen and (max-width: 320px) {
+  //   width: 290px;
+  // }
+
+  // @media screen and (max-width: 380px) {
+  //   width: 350px;
+  // }
+
+  // @media screen and (max-width: 460px) {
+  //   width: 410px;
+  // }
+
+  // @media screen and (max-width: 550px) {
+  //   width: 500px;
+  // }
+
+  // @media screen and (max-width: 768px) {
+  //   width: 600px;
+  // }
 }
 
 .input-icon {
@@ -142,9 +174,16 @@
   resize: none;
   cursor: pointer;
 
-  @media screen and (max-width: 480px) {
-    width: 271px;
-  }
+  // @media screen and (max-width: 350px) {
+  //   width: 271px;
+  // }
+  // @media screen and (max-width: 480px) {
+  //   width: 320px;
+  // }
+
+  // @media screen and (max-width: 768px) {
+  //   width: 380px;
+  // }
 }
 
 ::placeholder {

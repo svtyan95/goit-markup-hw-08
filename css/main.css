@@ -554,9 +554,6 @@ button {
     color: var(--blue-bg-button);
     fill: var(--header-button-active);
   }
-  .logo-web-blue {
-    color: #000000;
-  }
   .logo-web-black {
     color: #000000;
   }
@@ -778,12 +775,6 @@ button {
   padding: 40px;
 }
 
-@media screen and (max-width: 480px) {
-  .modal {
-    width: 350px;
-  }
-}
-
 .btn-close {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -864,12 +855,6 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .size-input {
-    width: 270px;
-  }
-}
-
 .input-icon {
   position: absolute;
   display: -webkit-box;
@@ -916,12 +901,6 @@ button {
   padding: 12px 12px;
   resize: none;
   cursor: pointer;
-}
-
-@media screen and (max-width: 480px) {
-  .size-input-feedback {
-    width: 271px;
-  }
 }
 
 ::-webkit-input-placeholder {
@@ -1587,12 +1566,6 @@ button {
   color: var(--main-white-color-h);
 }
 
-@media screen and (max-width: 767px) {
-  .logo-studio-white {
-    color: #000000;
-  }
-}
-
 footer {
   background-color: var(--nav-backgroud-main);
 }
@@ -1722,6 +1695,18 @@ footer {
           transition-timing-function: var(--cubic-bezier--);
   color: var(--portfolio-bottons-color);
   outline: none;
+}
+
+@media screen and (max-width: 400px) {
+  .mail-input {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mail-input {
+    width: 300px;
+  }
 }
 
 .mail-input:hover,

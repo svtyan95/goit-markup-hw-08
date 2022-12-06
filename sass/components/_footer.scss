@@ -1,8 +1,5 @@
 .logo-studio-white {
   color: var(--main-white-color-h);
-  @media screen and (max-width: 767px) {
-    color: #000000;
-  }
 }
 
 footer {
@@ -94,6 +91,14 @@ footer {
   transition-timing-function: var(--cubic-bezier--);
   color: var(--portfolio-bottons-color);
   outline: none;
+
+  @media screen and (max-width: 400px) {
+    width: 350px;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 300px;
+  }
 }
 
 .mail-input:hover,
