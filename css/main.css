@@ -611,13 +611,6 @@ button {
   background-color: rgba(33, 33, 33, 0.2);
 }
 
-.soc-itms {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 7px;
-}
-
 .hero {
   background-color: var(--nav-background-rgba-C4C4C4);
   padding-top: 200px;
@@ -1084,6 +1077,9 @@ button {
   .policy-text-link {
     font-size: 8px;
   }
+  .sociable-link-logo {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 430px) and (max-width: 590px) {
@@ -1103,6 +1099,40 @@ button {
   .policy-text-link {
     font-size: 12px;
   }
+  .sociable-link-logo {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .soc-itms::before {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 590px) {
+  .soc-itms::before {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sociable-list {
+    margin-left: 14px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 768px) {
+  .soc-itms::before {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .sociable-list {
+    margin-left: 16px;
+  }
+}
+
+.sociable-list {
+  margin-left: 20px;
 }
 
 .strength {
