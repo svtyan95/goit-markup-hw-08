@@ -1117,7 +1117,7 @@ button {
     margin-left: 10px;
   }
   .sociable-list {
-    margin-left: 14px;
+    margin-left: 0;
   }
 }
 
@@ -1127,12 +1127,8 @@ button {
     margin-left: 15px;
   }
   .sociable-list {
-    margin-left: 16px;
+    margin-left: 20px;
   }
-}
-
-.sociable-list {
-  margin-left: 20px;
 }
 
 .strength {
