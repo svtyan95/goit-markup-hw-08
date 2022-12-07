@@ -2060,14 +2060,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 767px) {
-  .lower-list {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
-
 .gallery-link {
   text-decoration: none;
   display: block;
